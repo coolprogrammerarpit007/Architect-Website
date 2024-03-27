@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Navigation Section Starts */
+.navbar {
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.links .link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  letter-spacing: 4px;
+}
+
+.links .link:hover {
+  background-color: gray;
+  margin-left: 30px;
+  padding: 10px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.logo h1 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo span {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+/* Navigation Section Ends */
+
+/* HERO Section Starts */
+
+.hero {
+  background-color: aqua;
+  padding: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/buildig.jpg), no-repeat, center, center, fixed;
+}
+
+.hero h2 {
+  color: grey;
+  letter-spacing: 4px;
+  font-size: 24px;
+}
+
+.hero span {
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 4px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  letter-spacing: 4px;
+}
+
+/* ****************************************** */
+
+/* Main Container Section Starts */
+
+.container {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 60px;
+  letter-spacing: 4px;
+}
+
+.container .projects {
+  margin-bottom: 15px;
+}
+.house-container img {
+  width: 100%;
+  height: auto;
+}
+.house-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+/* ************************************************************* */
+
+/* About Section */
+
+.about-container {
+  margin-top: 60px;
+  letter-spacing: 4px;
+}
+
+/* .about-page { */
+/* } */
+
+.about-page .about-title {
+  margin-bottom: 50px;
+}
+
+.team-container {
+  margin-top: 60px;
+}
+.team-container .person1,
+.person2,
+.person3,
+.person4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.team-container .contact {
+  text-align: center;
+  background: rgb(206, 200, 200);
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.team-container .contact:hover {
+  opacity: 0.7;
+}
+
+.team-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Using Grid */
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  column-gap: 16px;
+}
+
+/* End of team section */
+/* *******************************************************
+ */
+
+/******************************************* */
+
+/* Starting of Contact Section */
+
+.contact-section .contact-text h3 {
+  margin-bottom: 25px;
+}
+
+.contact-text {
+  margin-bottom: 15px;
+}
+
+.contact-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.contact-form .submit {
+  color: #fff;
+  background: #000;
+  padding: 10px 24px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2px;
+}
+
+/* *********************************************************
+ */
+
+/* Start of Address Section */
+.address-section {
+  margin-top: 30px;
+  width: 100%;
+  height: 600px;
+  background: url(../img/address-img.jpg), no-repeat, center, center, fixed;
+}
+
+/* **************************************** */
+
+/* Footer Section */
+
+footer {
+  background: seagreen;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
